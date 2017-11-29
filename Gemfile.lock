@@ -182,7 +182,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass
+  bootstrap-sass (~> 3.3.7)
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
@@ -192,7 +192,7 @@ DEPENDENCIES
   pg (= 0.20.0)
   puma (~> 3.7)
   rails (~> 5.1.2)
-  sass-rails
+  sass-rails (>= 3.2)
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)

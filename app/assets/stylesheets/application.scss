@@ -1,7 +1,6 @@
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import "toastr";
 
 body {
   color: #565a5c;
@@ -165,6 +164,7 @@ body {
   font-weight: bold;
   text-decoration: none;
 }
+
 
 label {
   color: #565a5c;
@@ -389,10 +389,6 @@ input.valid, textarea.valid{
 
 @media screen and (min-width: 0px) and (max-width: 799px) {
   .show-on-small { display: visible;}
-}
-
-.navbar-collapse.collapse {
-  display: block!important;
 }
 
 .navbar-nav>li, .navbar-nav {
