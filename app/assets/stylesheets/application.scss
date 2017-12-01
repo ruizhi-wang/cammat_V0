@@ -11,8 +11,7 @@ body {
 
 .landing {
   background-image: url('/assets/graphene-head.jpg');
-  background-size: cover;
-  background-position: center;
+  background-position: top;
   width:100%;
   height:40em;
 
@@ -22,15 +21,19 @@ body {
 	width: 90%;
 }
 
+.container-non-padding {
+  padding-left: 0px;
+  padding-right:0px;
+}
+
+// ------------------------------------------------------------------------
+// Navbar design
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 0px;
 }
 
-.container-non-padding {
-  padding-left: 0px;
-  padding-right:0px;
-}
+
 .navbar-default {
   background-color: #ffffff;
 }
@@ -42,9 +45,39 @@ body {
 }
 
 .navbar-header {
-  height:5em;
+  height:3em;
+}
+// ------------------------------------------------------------------------
+// Footer
+footer {
+  padding-top: 0.2em;
+  border-top: 1px solid #eaeaea;
+  color: #777;
 }
 
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
+// ------------------------------------------------------------------------
+// Button
 .btn-primary.btn {
   border: 1px solid #ff5a5f;
   border-radius: 30px;
