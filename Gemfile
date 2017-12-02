@@ -49,11 +49,6 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-group :staging do
-  gem 'pg', '0.20.0'
-  # Apparently can help with images to be uploaded to heroku
-  gem 'rails_12factor'
-end
 
 group :production do
   gem 'pg', '0.20.0'

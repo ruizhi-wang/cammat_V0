@@ -2,10 +2,10 @@ class StaticPagesController < ApplicationController
   def home
   end
 
-  def help
+  def technology
   end
 
-  def about
+  def team
   end
 
   def contact
