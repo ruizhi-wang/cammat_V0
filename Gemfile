@@ -52,7 +52,7 @@ end
 group :production do
   gem 'pg', '0.20.0'
   # Apparently can help with images to be uploaded to heroku
-  # gem 'rails_12factor'
+  gem 'rails_12factor'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
